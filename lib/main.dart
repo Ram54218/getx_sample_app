@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'GetX Demo',
+      title: 'GetX Basic StateManagement',
       theme: ThemeData(primarySwatch: Colors.blue),
       initialBinding: CustomerInfoBinding(),
       home: const CustomerInfoPage(),
